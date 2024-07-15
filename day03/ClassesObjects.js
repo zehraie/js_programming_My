@@ -1,4 +1,5 @@
 class Employee{
+<<<<<<< HEAD
     static myStaticMethod(){
 
     }
@@ -39,3 +40,13 @@ employee3.work();
 employee4.work();
 
 
+=======
+
+    constructor(employeeName, age, gender, salary){
+        this.employeeName = employeeName; // creating variable and , declaring variable and initialize
+        this.age = age;
+        this.gender =gender;
+        this.salary = salary;
+    }
+}
+>>>>>>> cfa800f4ab3621939ca515d13011ec2fb5836255
